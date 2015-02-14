@@ -1,0 +1,41 @@
+# PSEUDOCODE FOR MY PROJECT: Locating UCE cores and flanking regions
+
+# Download Phyluce:
+# What Phyluce does – aligns assembled contigs back to their associated UCE loci, 
+removes duplicate matches, creates a taxon-specific database of contig-to-UCE matches, 
+and includes UCE loci from a known genome as outgroup sequences. (e.g. the chicken (Gallus gallus))
+
+# Make sure Anaconda is in my $PATH ??  I checked for python, but Anaconda isn't coming up
+# python -V (in terminal)
+
+# Add the Faircloth lab binstar repository to my .condarc ??
+# conda config --add channels http://conda.binstar.org/faircloth-lab
+
+# Install Phyluce
+# conda install phyluce
+
+
+
+
+
+# Find UCE sequences:
+# Download UCE contigs ?? available on Dryad (http://datadryad.org/resource/doi:10.5061/dryad.sd080)
+# UCE contigs used in analyses are also available from Genbank (accessions: JQ328245 - JQ335930, KC358654 - KC403881)
+
+# Do I need to filter for anything ?? (software: Illumiprocessor, Sickle)
+# I don't think so.. the contigs have already been filtered, right?
+
+
+
+#Find where UCE probes are:
+# LASTZ matches of probes to species-specific contigs ?? available on Dryad (http://datadryad.org/resource/doi:10.5061/dryad.sd080)
+
+
+
+
+# After I download UCE sequences and align all loci for all species, I will align probe sequences to these loci ??
+# Then I will determine where the UCE cores vs. flanks are located
+
+# If I have time after these steps, I will compare UCE alignments of cores and flanks across species
+# Or I could start by just comparing alignments of cores and flanks between two species 
+that are representative of adaptive / non-adaptive radiations (e.g. hummingbird/violetear and mousebird)
